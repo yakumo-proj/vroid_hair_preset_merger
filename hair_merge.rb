@@ -8,7 +8,7 @@
 require 'JSON'
 require 'fileutils'
 
-#marge JSON
+#merge JSON
 x, y = ARGV[0..1].map {|path| JSON.parse( open(path + '/preset.json').readlines.join) }
 x["Hairishes"]                  += y["Hairishes"][1..-1]
 x["_MaterialSet"]["_Materials"] += y["_MaterialSet"]["_Materials"]
