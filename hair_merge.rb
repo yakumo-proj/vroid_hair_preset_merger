@@ -1,9 +1,10 @@
+#!/usr/bin/env ruby
+
 # hair_presets merge tools ver.0.1 (GNU GPLv3 ver.)
 # Copyright (C) 2020  Yakumo Sayo, Susanoo Lab. All rights reserved.
 # usage: ruby hair_merge.rb presetXXX presetYYY
 #  => directory 'presetXXX' marged.
 
-#!/usr/bin/ruby
 require 'JSON'
 require 'fileutils'
 
