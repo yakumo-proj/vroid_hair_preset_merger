@@ -18,7 +18,7 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 # usage: ruby hair_merge.rb presetXXX presetYYY
-#  => directory 'presetXXX' marged.
+#  => directory 'presetXXX' merged.
 
 require 'JSON'
 require 'fileutils'
