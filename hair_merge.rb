@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-# hair_preset marge tools ver.0.1
+# hair_presets merge tool ver.0.1
 # Copyright (C) 2020  Yakumo Sayo, Susanoo Lab. All rights reserved.
 # 
 # GPLv3
