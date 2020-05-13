@@ -1,4 +1,4 @@
-# vroid_hair_preset_marger
+# VRoid hair-preset merger
 
 to see.
 https://github.com/yakumo-proj/vroid_hair_preset_merger
