@@ -1,7 +1,9 @@
 # VRoid hair-preset merger
 
-to see.
-https://github.com/yakumo-proj/vroid_hair_preset_merger
+hair_presets merge tool for VRoid Studio <= 0.9.1
+
+BOOTH:
+https://booth.pm/ja/items/2068541
 
 ## License 
 GNU GPL v3.
