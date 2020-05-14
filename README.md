@@ -1,6 +1,7 @@
 # VRoid hair-preset merger
 
-hair_presets merge tool for VRoid Studio <= 0.9.1
+hair_presets merge tool for VRoid Studio 0.9.x Win/Mac
+Ruby implementation
 
 BOOTH:
 https://booth.pm/ja/items/2068541
