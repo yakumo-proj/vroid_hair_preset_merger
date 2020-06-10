@@ -21,7 +21,6 @@
 #             => generate hair preset display-name list CSV 
 #        ruby hairs_dir.rb update     
 #             => hair_presets display name updated
-#  => directory 'presetXXX' merged
 
 require 'JSON'
 require 'fileutils'
