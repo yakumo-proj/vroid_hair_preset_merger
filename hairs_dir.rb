@@ -17,7 +17,10 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-# usage: ruby hair_merge.rb presetXXX presetYYY presetZZZ <Preset Name(option)>
+# usage: ruby hairs_dir.rb 
+#             => generate hair preset display-name list CSV 
+#        ruby hairs_dir.rb update     
+#             => hair_presets display name updated
 #  => directory 'presetXXX' merged
 
 require 'JSON'
