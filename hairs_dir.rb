@@ -29,7 +29,7 @@ require 'rbconfig'
 class PresetJson
     def initialize(path)
         @path = path
-        @json = JSON.parse(open(@path).readlines.join)
+        @json = JSON.parse(open(@path).readlines.join("\n"))
     end
     def disp_name
         @json['_DisplayName']
@@ -60,8 +60,9 @@ presets = Dir.chdir(path) {
     }.sort_by(&:first)
 }.to_h
 
-if  ARGV[0] == 'update' # write mode
-    open("vroid_hair_presets.csv").readlines.map {|str|
+unless ARGV[0].nil? # write mode
+    csv_path = ARGV[0] == 'update' ? "vroid_hair_presets.csv" : ARGV[0]
+    open(csv_path).readlines.map {|str|
         n, name = str.chomp.split(',')
         presets[n.to_i].disp_name = name
     }
