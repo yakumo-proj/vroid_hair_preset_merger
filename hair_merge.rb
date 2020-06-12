@@ -37,11 +37,11 @@ class Array
 end
 
 # merge JSON
-x, y = ARGV[0..1].map {|path| JSON.parse(open(json_path[path]).readlines.join) }
+x,y = ARGV[0..1].map {|path| JSON.parse(open(json_path[path]).readlines.join) }
+return if x.nil? || y.nil?
 x['Hairishes'].merge_tree! y['Hairishes'][1..-1]
 x['_MaterialSet']['_Materials'].merge_tree! y['_MaterialSet']['_Materials']
 x['_HairBoneStore']['Groups'].merge_tree! y['_HairBoneStore']['Groups']
-
 
 # Display Name
 x['_DisplayName']= ARGV[3] || ('[merged]' + File.basenane(new_preset))
