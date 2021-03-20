@@ -1,13 +1,13 @@
 この度は本商品をダウンロードいただき誠にありがとうございます。
 
 <商品名>
-  VRoid髪プリセットマージツール v0.2(20200514)
+  VRoidヘアプリセットマージツール(Ruby) v0.6(20210320)
 
 <制作者の表示> 
-  八雲佐世／八雲P  ( Twitter: @yakumo_sayo )
+  八雲 佐世(Twitter: @yakumo_sayo)
 
   本素材データの著作権及び著作者人格権等のその他一切の権利は、頭記製作者に帰属します。
-  Copyright(C) 2019-2020  Yakumo Sayo, Susanoo Lab. All Right Reserved.
+  Copyright(C) 2019-2021  Yakumo Sayo, Susanoo Lab. All Right Reserved.
 
 <ライセンス>
    GPLv3もしくは作者が個別に定めるライセンス
@@ -21,8 +21,6 @@
 　　これ
 ・hair_merge.rb
 　　プログラム本体
-・preset_nekomimi（フォルダ)
-　　Void 0.9から追加された女性用プリセットのうち猫耳とアホ毛だけを取り出したもの。
 
 <使用方法>
 ※前のバージョンと引数設定などが変わってます
