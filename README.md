@@ -17,5 +17,5 @@ In addition, it is justified for the purpose of more conveniently using the hair
 ## 日本語でOK
 私は日本人です！
 
-## C#.NET Implementation, under BSD 2-clause License
+## CSharp .NET Implementation, under BSD 2-clause License
 https://github.com/yakumo-proj/VrsHairsTool.NET
